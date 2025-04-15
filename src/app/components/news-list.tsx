@@ -1,6 +1,6 @@
+import { IMovies } from '@src/backend/src/models/movies';
 import Image from 'next/image';
 import Link from 'next/link';
-import { IMovies } from '@src/app/interfaces/movie';
 
 export default function MoviesList({ movies }: { movies: IMovies[] }) {
   //   console.log('movies', movies._id);

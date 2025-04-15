@@ -1,4 +1,4 @@
-import { IMovies } from '@src/app/interfaces/movie';
+import { IMovies } from '@src/backend/src/models/movies';
 import Image from 'next/image';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
